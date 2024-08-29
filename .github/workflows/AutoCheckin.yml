@@ -4,6 +4,7 @@
 name: AutoCheckin
 
 on: 
+workflow_dispatch:
   schedule:
     - cron: '5 16 * * *' # 时差，北京时间凌晨00点00分
 
